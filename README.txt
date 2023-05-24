@@ -1,1 +1,1 @@
-/espacio para emprendimiento, recuerda borrarlo 
+/espacio para emprendimiento

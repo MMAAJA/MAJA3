@@ -447,16 +447,16 @@
   
       <div class="col-12 col-md-12 col-lg-12 col-sm-12 col-xs-12 p-0 m-0">
         <div class="form contact-opacity" autocomplete="false">
-          <form  id ="myForm" action="mail.php">
+          <form id="myForm" action="mailto:correo@gmail.com" method="post" enctype="text/plain">
             <div class="input-line">
-              <input id="name" type="text" placeholder="name" class="input-same-line">
-              <input id="email" type="email" placeholder="email" class="input-same-line">
+              <input id="name" type="text" name="name" placeholder="Name" class="input-same-line">
+              <input id="email" type="email" name="email" placeholder="Email" class="input-same-line">
             </div>
             <div class="input-line-column">
-              <input id="subject" type="text" placeholder="subject">
-              <textarea name="textarea" id="body" class="textarea" placeholder="message"></textarea>
+              <input id="subject" type="text" name="subject" placeholder="Subject">
+              <textarea name="message" id="body" class="textarea" placeholder="Message"></textarea>
             </div>
-           <button type="button" id="submit" class="hover">Send</button>
+            <button type="submit" id="submit" class="hover">Send</button>
           </form>
         </div>
         </div>
